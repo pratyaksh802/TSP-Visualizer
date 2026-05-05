@@ -55,13 +55,13 @@ cd tsp-visualizer
 ### 3. Compile
 
 ```bash
-g++ -std=c++17 src/main.cpp -o tsp -lsfml-graphics -lsfml-window -lsfml-system
+g++ src\tsp_visualizer.cpp -o bin\tsp.exe -I"C:\SFML-3.1.0\include" -L"C:\SFML-3.1.0\lib" -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
 ### 4. Run
 
 ```bash
-./tsp
+.\bin\tsp.exe
 ```
 
 ---
